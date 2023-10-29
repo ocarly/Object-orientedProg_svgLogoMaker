@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Circle, Square, Triangle } = require("./lib/shapes");
-
+const path = require("path");
 const questions = [
 {
     type: 'input',
@@ -34,7 +34,9 @@ inquirer.prompt(questions)
 
          makeShapes(text,textColor,mcShape,shapeColor);
 })
-// .catch((err) => console.log(err));
+.catch((err) => console.log(err));
+
+
 function makeShapes(text, shapeColor, textColor, mcShape){
     if (mcShape === 'Circle') {
         const circle = new Circle(text, textColor, shapeColor)
