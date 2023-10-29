@@ -43,7 +43,7 @@ function makeShapes(text, shapeColor, textColor, mcShape){
                 console.log(err);
             }
             else {
-                console.log("Generated logo.svg!");
+                console.log("created logo.svg");
             }
         });   
     }
