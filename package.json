@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "Module10OOP",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "scripts": {
+   "scripts": {
     "test": "jest --verbose"
   },
+
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

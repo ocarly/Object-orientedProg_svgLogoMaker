@@ -50,7 +50,7 @@ function makeShapes(text, shapeColor, textColor, mcShape){
         });   
     }
 }
-if (makeShapes === 'Triangle') {
+if (mcShape === 'Triangle') {
     const triangle = new Triangle(text, textColor, shapeColor)
     return fs.writeFile('logo.svg',triangle.render(),(err) => {
         if(err) {
@@ -61,7 +61,7 @@ if (makeShapes === 'Triangle') {
         }
     });   
 }
-if (makeShapes === 'Square') {
+if (mcShape === 'Square') {
     const square = new Square(text, textColor, shapeColor)
     return fs.writeFile('logo.svg',square.render(),(err) => {
         if(err) {
