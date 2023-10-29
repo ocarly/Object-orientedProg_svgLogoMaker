@@ -43,8 +43,30 @@ function makeShapes(text, shapeColor, textColor, mcShape){
                 console.log(err);
             }
             else {
-                console.log("created logo.svg");
+                console.log("logo.svg has been created.");
             }
         });   
     }
+}
+if (makeShapes === 'Triangle') {
+    const triangle = new Triangle(text, textColor, shapeColor)
+    return fs.writeFile('logo.svg',triangle.render(),(err) => {
+        if(err) {
+            console.log(err);
+        }
+        else {
+            console.log("logo.svg has been created.");
+        }
+    });   
+}
+if (makeShapes === 'Square') {
+    const square = new Square(text, textColor, shapeColor)
+    return fs.writeFile('logo.svg',square.render(),(err) => {
+        if(err) {
+            console.log(err);
+        }
+        else {
+            console.log("logo.svg has been created.");
+        }
+    });   
 }
