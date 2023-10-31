@@ -24,7 +24,12 @@ function init() {
         triCirSqu.setShapeColor(response.shapeColor)
         const finalLogo = new SVG()
         finalLogo.setShape(triCirSqu)
-        finalLogo.setText(response.text, response.textColor)
+        finalLogo.setText(response.textColor, response.text)
+        if(response.text.length>3){
+            console.log({"message":"you blew it. no more tha three characters."})
+        }else{
+            fs.writeFileSync("./examples/ChickenSVG.svg",finalLogo.renderSvg())
+        }
         })
     .catch(err => console.log(err))};
 
