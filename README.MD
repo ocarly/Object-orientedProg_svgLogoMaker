@@ -25,9 +25,14 @@ npm test
 logo.svg
 ![logoSVG](https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/cde9110b-df0a-4d2f-a1f9-dc24637095a4)
 
+GitHub repository
+https://github.com/ocarly/Object-orientedProg_svgLogoMaker
+
 Video Demo
 https://watch.screencastify.com/v/TNOamzmFNsiFeWKMFKhe
 
+SVG Logo
 <img src="https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/f7104825-8bd4-48e0-8631-e61153e8f492"  alt="SVG">
 
 https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/f7104825-8bd4-48e0-8631-e61153e8f492
+
