@@ -14,8 +14,11 @@ Invoke the application using node index.js.
 Run the application and respond to the series of prompts to generate a logo.svg for your project.
 The prompts are located in the index.js file of this repository.
 Press Enter after each response to proceed to the subsequent prompt. Upon completing all prompts, a logo.svg file will be automatically generated.
-View the generated logo.svg file in a live server/browser to see the results.
+View the generated logo.svg logo by copying/pasting the code in a live server/browser to see the results.
 
 ## Test
 Run npm test for testing.
+
+npm test
+![npmTest](https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/a534d714-7c4c-4ae5-a44c-8080c889aade)
 
