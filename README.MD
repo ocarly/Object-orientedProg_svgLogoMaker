@@ -22,3 +22,5 @@ Run npm test for testing.
 npm test
 ![npmTest](https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/a534d714-7c4c-4ae5-a44c-8080c889aade)
 
+logo.svg
+![logoSVG](https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/cde9110b-df0a-4d2f-a1f9-dc24637095a4)
