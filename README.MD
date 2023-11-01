@@ -24,3 +24,8 @@ npm test
 
 logo.svg
 ![logoSVG](https://github.com/ocarly/Object-orientedProg_svgLogoMaker/assets/141790916/cde9110b-df0a-4d2f-a1f9-dc24637095a4)
+
+Video Demo
+https://watch.screencastify.com/v/TNOamzmFNsiFeWKMFKhe
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="black"/><text x="50" y="50" font-family="Arial" text-anchor="middle" alignment-baseline="middle" font-size="24" fill="green">zoo</text></svg>
